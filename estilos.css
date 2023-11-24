@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Smooch+Sans:wght@100&display=swap');
+
+body {
+    background-color: khaki;
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+button{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+/* todo */
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+/* seccion pokemon con botones */
+.seccionPokemon {
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    height: fit-content;
+    width: 65vw;
+
+}
+
+.next,
+.prev {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+
+/* seccion tarjetas pokemon */
+#contenedorTarjetas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+/* seccion carrito con botones */
+.carrito {
+    width: 30vw;
+    background-color: rgb(108, 139, 132);
+}
+
+.contenedorCarrito {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.carritoTarjeta {
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px black solid;
+}
+
+/* card */
+.pokeTarjeta {
+    background-color: lightseagreen;
+    border: 1px black solid;
+    margin: 5px;
+    text-align: center;
+
+}
